@@ -11,7 +11,7 @@ function About (){
                 </h1>
             </div>
             <div className="about-Img">
-                <img src={Test}/>
+                {/* <img src={Test}/> */}
             </div>
         </body>
     );
