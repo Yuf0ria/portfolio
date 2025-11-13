@@ -1,21 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+} from "react-router-dom";
+import About from "./pages/about";
+import Artwork from "./pages/art";
+import Games from "./pages/game";
 
 function App() {
   return (
-    <body className="body">
-      {/* navigationlinks */}
-      <nav className="nav">
-        <ul>
-          <li className="Logo"><a href="#">Suri's Workshop</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">About me</a></li>
-        </ul>
-      </nav>
-      <div className="App">
-      
-      </div>
-    </body>
+    <Router>
+      <Navbar />
+      <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/art" element={<Artwork />} />
+          <Route path="/game" element={<Games />}/> 
+      </Routes>
+    </Router>
     
   );
 }

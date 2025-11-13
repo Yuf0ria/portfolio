@@ -1,0 +1,43 @@
+.about-h1{
+    text-align: center;
+    animation-duration: 0.6s;
+    animation-name: Slide;
+    transform: translate(-40px, -15px);
+    font-size: 32px;
+}
+
+.h1-span {
+    font-size: 28px;
+    display: inline-block;
+    animation-duration: 1s;
+    animation-name: grow-shrink;
+    transform: translate(-5px);
+}
+
+.about-Img{
+    background-color: aliceblue;
+    float: right;
+}
+
+/* animation */
+@keyframes Slide {
+    0%{
+        translate: 80vw 0;
+        scale: 200% 1;
+    }
+    100%{
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+@keyframes grow-shrink{
+    50% {
+        scale: 100%;
+    }
+
+    75% {
+        scale: 120%;
+        color: rgb(203, 235, 61);
+    }
+}
