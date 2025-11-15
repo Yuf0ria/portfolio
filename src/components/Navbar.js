@@ -5,7 +5,7 @@ function Navbar() {
             <nav>
                 <ul>
                     <li className="Nav-elements">
-                        <Link className={"nav-color"} to="/">
+                        <Link className={"nav-color nav-upper"} to="/">
                             Suri's Workshop
                         </Link>
                     </li>

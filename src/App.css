@@ -1,19 +1,22 @@
 /* Fonts */
- @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Unica+One&display=swap'); 
-  .unica-one-regular {
-  font-family: "Unica One", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+.hedvig-letters-serif {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  }
-  .josefin-sans{
-    font-family: "Josefin Sans", sans-serif;
-  }
+}
+.fredericka-the-great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
   *{
     overflow: hidden;
     /* firefox */
     scrollbar-width: none;
-    
   }
 
 body {
@@ -23,8 +26,7 @@ body {
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: "Josefin Sans", sans-serif;
-  
+  font-family: "Hedvig Letters Serif", serif;
   margin: 0;
   padding: 0;
 }
@@ -34,7 +36,7 @@ nav {
   flex: 1;  
   flex-direction: row;
   padding: 20;
-  font-family: "Unica One", sans-serif;
+  font-family: "Fredericka the Great", serif;
 }
 
 nav ul{
@@ -56,11 +58,16 @@ nav ul li{
   text-decoration: none;
 }
 
+.nav-upper{
+  text-transform: uppercase;
+}
+
 .nav-color:hover{
   color: rgb(203, 235, 61);
 }
 .Nav-elements{
   float: left;
+
 }
 
 /* div */
@@ -68,10 +75,6 @@ div{
   margin: 0;
   padding: 10px;
 }
-
-/* .App-link {
-  color: #61dafb;
-} */
 
 /* @keyframes App-logo-spin {
   from {

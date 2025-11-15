@@ -1,8 +1,14 @@
+import"./css/game.css";
 function Games () {
     return (
-        <div>
-            <h1>Sign Up Successful</h1>
+        // gallery container
+        <div className="gal-con"> 
+            <div className="gal-">
+                {/* img
+                link */}
+            </div>
         </div>
+        
     );
 };
 
