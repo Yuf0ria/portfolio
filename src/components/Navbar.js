@@ -4,7 +4,7 @@ function Navbar() {
         <nav>
             <ul>
                 <li className="Nav-elements">
-                    <Link className={"nav-color"} to="/">
+                    <Link className={"nav-color"} to="/portfolio">
                         Suri's Workshop
                     </Link>
                 </li>
