@@ -9,7 +9,7 @@ import {
 import About from "./pages/about";
 import Artwork from "./pages/art";
 import Games from "./pages/game";
-import BG from "./pages/Img/background.jpg";
+// import BG from "./pages/Img/background.jpg";
 // Content, in portfolio
 import Content from "./pages/about_con";
 import Profile from "./pages/profile";
@@ -31,7 +31,7 @@ function App() {
           <Route path="/about-Contact" element={<Profile />}/> 
       </Routes>
       <body>
-        <img className="App-BG background" src={BG} alt='background credits:circe denyer'/>
+        {/* <img className="App-BG background" src={BG} alt='background credits:circe denyer'/> */}
       </body>
     </Router>
   );

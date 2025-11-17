@@ -15,6 +15,7 @@
 
 *{
   overflow: hidden;
+  display: fixed;
   /* firefox */
   scrollbar-width: none;
   margin: 0;
@@ -33,19 +34,21 @@
 }
 
 body {
-  display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: "Jersey 10", sans-serif;
   padding-bottom: 50%;
+  background: url('./pages/Img/background.jpg') center center / cover no-repeat fixed;
 }
 
 .background{
+
   position: absolute;
   top: 0;
   left: 0;
-  background-repeat: no-repeat;
+  background-position: no-repeat;
+  background-attachment: fixed;
   mix-blend-mode: normal;
   z-index: -1;
 }
@@ -88,6 +91,12 @@ nav ul li{
 div{
   margin: 10px;
   padding: 10px;
+}
+
+@media (min-width: 1024px) {
+  .background {
+    background: url('./pages/Img/background.jpg') center center / cover no-repeat fixed;
+  }
 }
 
 /* animation */

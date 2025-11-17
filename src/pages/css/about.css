@@ -72,6 +72,7 @@
     position: absolute;
     right: 0;
     z-index: 1;
+    height: 100vh; /* Full viewport height */
 }
 
 .about-img2{
@@ -83,6 +84,7 @@
     position: absolute;
     top: 10px;
     z-index: 2;
+    height: 100vh; /* Full viewport height */
 }
 
 .about-img3{
@@ -92,6 +94,7 @@
     position: absolute;
     top: 10px;
     z-index: 3;
+    height: 100vh; /* Full viewport height */
 }
 
 .about-img4{
@@ -102,8 +105,11 @@
     top: 0;
     left: 0;
     bottom: 0;
-    zoom: 110%;
+    right: 0;
+    zoom: 111.5%;
     z-index: 4;
+    height: 100vh; /* Full viewport height */
+    background-size: 100% auto;
 }
 
 .about-img5{
@@ -115,6 +121,7 @@
     left: 0;
     z-index: 5;
     mix-blend-mode: multiply;
+    height: 100vh; /* Full viewport height */
 }
 
 .about-img6{
@@ -124,6 +131,7 @@
     left: 0;
     z-index: 6;
     mix-blend-mode: color-dodge;
+    height: 100vh; /* Full viewport height */
 }
 
 .about-img7{
@@ -134,6 +142,7 @@
     top: 0;
     left: 0;
     z-index: 7;
+    height: 100vh; /* Full viewport height */
 }
 
 .about-img8{
@@ -141,10 +150,20 @@
     position: absolute;
     top: 0;
     left: 0;
-    zoom: 104%;
     z-index: 8;
     mix-blend-mode: color-dodge;
+    height: 100vh; /* Full viewport height */
+    background-size: 100% auto;
+    zoom: 110%;
 }
+
+  @media (min-width: 1920px) {
+        .parallax-layer {
+            background-position: top center; /* Adjust position for larger screens */
+            /* Maybe use a different, higher-res background image */
+            /* background-image: url('your-large-screen-image.jpg'); */
+        }
+    }
 
 /* animation */
 @keyframes Slide {
