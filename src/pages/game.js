@@ -1,7 +1,6 @@
 import './css/game.css';
 //parralax effects
 import BG_1 from "./Img/parallax/1.png";
-import BG_4 from "./Img/parallax/4.png";
 import BG_6 from "./Img/parallax/6.png";
 import BG_8 from "./Img/parallax/8.png";
 //Game Images
@@ -16,20 +15,41 @@ function Games () {
             <div className="gallery"> 
                 <div className="gal-con">
                     <img src={Lines}></img>
-                    <p className='gal-text'>
+                    <h5 className='gal-h5'>
+                        Year of Release
+                    </h5>
+                    <h6 className='gal-h6'>
+                        Role
+                    </h6>
+                    <p className='gal-p'>
                         TExt of content here lalala
                     </p>
                 </div>
                 <div className="gal-con">
-                    {/* img
-                    link */}
+                    <img src={NES}></img>
+                    <h5 className='gal-h5'>
+                        Year of Release
+                    </h5>
+                    <h6 className='gal-h6'>
+                        Role
+                    </h6>
+                    <p className='gal-p'>
+                        TExt of content here lalala
+                    </p>
                 </div>
                 <div className="gal-con">
-                    {/* img
-                    link */}
+                    <img src={Sheep}></img>
+                    <h5 className='gal-h5'>
+                        Year of Release
+                    </h5>
+                    <h6 className='gal-h6'>
+                        Role
+                    </h6>
+                    <p className='gal-p'>
+                        TExt of content here lalala
+                    </p>
                 </div>
             </div>
-            <img className="about-img4 slide-left" src={BG_4} alt="gradient 2"/>
             <img className="about-img6" src={BG_6} alt="color-dodge leaf shadow"/>
             <img className="about-img8" src={BG_8} alt="color-dodge light"/>
         </body>

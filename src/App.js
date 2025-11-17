@@ -15,9 +15,9 @@ import Content from "./pages/about_con";
 import Profile from "./pages/profile";
 
 // should prevent images to be copied
-document.addEventListener('contextmenu', (e) => {
-    e.preventDefault();
-});
+// document.addEventListener('contextmenu', (e) => {
+//     e.preventDefault();
+// });
 
 function App() {
   return (
