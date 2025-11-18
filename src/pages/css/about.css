@@ -66,45 +66,6 @@
     text-align: left;
 }
 
-
-@media (max-width: 768px) {
-
-    .about-h1{
-        font-size: 70px;
-        text-transform: capitalize;
-        padding: 0;
-        text-align: center;
-    }
-
-    .about-h1-p{
-        font-size: 16px;
-        padding: 0;
-        padding-bottom: 10px;
-    }
-
-    /* About Me */
-    .about-me{
-        position: relative;
-        float: left;
-        padding: 10px 10px;
-        z-index: 11;
-    }
-
-    .about-p{
-        font-size: 18px;
-    }
-
-    .border-slide{
-        margin: 65px 0;
-        padding: 5px;
-        z-index: 5;
-    }
-    .border-slide-about{
-        margin: 10px;
-        text-align: left;
-    }
-}
-
 /* animation */
 @keyframes Slide {
     0%{
